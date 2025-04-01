@@ -40,7 +40,7 @@ const About = () => {
             <h1 className={`text-2xl ${roboto.className}`}>
               Hi , I am Devon Barangan
             </h1>
-            <p
+            <div
               className={`text-lg ${outfit.className} max-w-xl text-justify leading-7 mt-1`}
             >
               <p>
@@ -49,7 +49,7 @@ const About = () => {
                 applications and exploring new technologies. In my free time, I
                 love learning new frameworks and optimizing user experiences.
               </p>
-            </p>
+            </div>
           </div>
         </div>
       </div>
