@@ -78,7 +78,7 @@ const TechSkills = () => {
             <motion.h1
               className={`text-3xl font-bold mt-10 ${outfit.className}`}
             >
-              REST API's
+              REST API&apos;s
             </motion.h1>
           </motion.div>
         </div>

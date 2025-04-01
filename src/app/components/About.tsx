@@ -43,10 +43,12 @@ const About = () => {
             <p
               className={`text-lg ${outfit.className} max-w-xl text-justify leading-7 mt-1`}
             >
-              I'm a passionate developer with expertise in JavaScript,
-              TypeScript, and the MERN stack. I enjoy building intuitive web
-              applications and exploring new technologies. In my free time, I
-              love learning new frameworks and optimizing user experiences.
+              <p>
+                I&apos;m a passionate developer with expertise in JavaScript,
+                TypeScript, and the MERN stack. I enjoy building intuitive web
+                applications and exploring new technologies. In my free time, I
+                love learning new frameworks and optimizing user experiences.
+              </p>
             </p>
           </div>
         </div>
