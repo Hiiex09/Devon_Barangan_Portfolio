@@ -1,9 +1,18 @@
 import Link from "next/link";
 import { ProjectDetails } from "../utils/data";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 const Projects = () => {
   return (
     <section id="projects">
+      <div className="p-2 text-center mb-5">
+        <h1 className={`text-4xl ${roboto.className}`}>Personal Projects</h1>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-4">
         {ProjectDetails.map((data) => (
           <div key={data.id} className="card bg-neutral text-white shadow-sm">
