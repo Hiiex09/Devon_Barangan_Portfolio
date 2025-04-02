@@ -15,13 +15,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
@@ -32,17 +31,17 @@ const Navbar = () => {
               <Link href={"/"}>Home</Link>
             </li>
             <li>
-              <Link href={"/about"}>About</Link>
+              <Link href={"#about"}>About</Link>
             </li>
             <li>
-              <Link href={"/projects"}>Projects</Link>
+              <Link href="#projects">Projects</Link>
             </li>
             <li>
-              <Link href={"/contact"}>Contact</Link>
+              <Link href={"#contact"}>Contact</Link>
             </li>
           </ul>
         </div>
-        <Link href={"/contact"}>Devon Barangan</Link>
+        <Link href={"/"}>Devon Barangan</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -50,13 +49,13 @@ const Navbar = () => {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/about"}>About</Link>
+            <Link href={"#about"}>About</Link>
           </li>
           <li>
-            <Link href={"/projects"}>Projects</Link>
+            <Link href="#projects">Projects</Link>
           </li>
           <li>
-            <Link href={"/contact"}>Contact</Link>
+            <Link href={"#contact"}>Contact</Link>
           </li>
         </ul>
       </div>
