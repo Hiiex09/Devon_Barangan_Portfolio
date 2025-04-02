@@ -10,11 +10,6 @@ const roboto = Roboto({
   weight: ["400"],
 });
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  weight: ["400"],
-});
-
 const TechSkills = () => {
   return (
     <section id="skills">
