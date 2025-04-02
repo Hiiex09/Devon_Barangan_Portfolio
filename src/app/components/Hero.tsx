@@ -39,7 +39,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="mt-4">
-          <Link href={"#projects"} className="btn btn-md btn-neutral">
+          <Link href="#projects" className="btn btn-md btn-neutral">
             View My Works
           </Link>
         </div>
