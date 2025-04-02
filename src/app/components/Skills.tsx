@@ -1,8 +1,7 @@
 "use client";
 
-import { section } from "framer-motion/client";
 import { motion } from "motion/react";
-import { Outfit, Roboto } from "next/font/google";
+import { Roboto } from "next/font/google";
 import Image from "next/image";
 
 const roboto = Roboto({
