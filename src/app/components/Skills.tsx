@@ -74,7 +74,6 @@ const TechSkills = () => {
             >
               <Image src={"/mongodb.png"} alt="logo" height={50} width={50} />
               <Image src={"/mysql.png"} alt="logo" height={50} width={50} />
-              <Image src={"/prisma.png"} alt="logo" height={50} width={50} />
             </motion.div>
           </div>
           <div className="flex-1 ">
