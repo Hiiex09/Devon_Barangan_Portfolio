@@ -18,7 +18,7 @@ const outfit = Outfit({
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-10 px-4 sm:px-10 md:px-20">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-10 px-4 sm:px-10 md:px-20 bg-blue-50">
       <motion.div
         className="text-center lg:text-left p-10 sm:p-20 lg:p-40"
         initial={{ x: -100 }}

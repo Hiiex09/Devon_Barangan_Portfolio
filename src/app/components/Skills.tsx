@@ -11,9 +11,9 @@ const roboto = Roboto({
 
 const TechSkills = () => {
   return (
-    <section id="skills">
+    <section id="skills" className="bg-blue-50">
       <motion.div
-        className="max-w-full m-10 p-5"
+        className="max-w-full m-10 p-8"
         initial={{ opacity: 0, translateX: "100%" }}
         whileInView={{ opacity: 1, translateX: 0 }}
         transition={{ duration: 1.5 }}
