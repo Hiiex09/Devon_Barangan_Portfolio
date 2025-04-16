@@ -26,7 +26,7 @@ const About = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-10 max-w-5xl">
           <div className="p-3">
             <Image
-              src={"/Student.png"}
+              src={"/profile.png"}
               alt="profile"
               width={250}
               height={250}

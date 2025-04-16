@@ -52,7 +52,7 @@ const Hero = () => {
         transition={{ ease: easeInOut }}
       >
         <Image
-          src={"/Student.png"}
+          src={"/profile.png"}
           alt="profile"
           width={500}
           height={500}
