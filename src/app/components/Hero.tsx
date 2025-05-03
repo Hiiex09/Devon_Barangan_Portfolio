@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
         <div className="bg-neutral text-white text-center rounded-md mt-1 p-3">
           <p className={`text-2xl sm:text-3xl md:text-4xl ${outfit.className}`}>
-            Fullstack Frontend Developer
+            Frontend Developer
           </p>
         </div>
         <div className="mt-4">
